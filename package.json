@@ -1,0 +1,16 @@
+{
+    "name": "conversational-analytics",
+    "private": true,
+    "description": "Conversational Analytics monorepo",
+    "packageManager": "pnpm@11.1.2",
+    "type": "module",
+    "scripts": {
+        "dev:client": "pnpm --filter client dev",
+        "lint:client": "pnpm --filter client lint",
+        "type-check:client": "pnpm --filter client type-check"
+    },
+    "engines": {
+        "node": ">=24",
+        "pnpm": ">=10.x"
+    }
+}

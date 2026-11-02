@@ -1,0 +1,11 @@
+id,session_id,speaker,message_type,content,confidence,created_at
+cf58beac-7c46-5630-9a56-d16aa85e16f7,435abb67-7f0b-52bb-bae5-0505b77adeb6,assistant,text,"{""text"": ""Welcome back. I'm Ava with Northwind Analytics. Were you able to review the plan comparison we sent over?""}",,2026-05-12T10:31:30Z
+f413fc3e-733a-5868-a15c-dc014363e964,435abb67-7f0b-52bb-bae5-0505b77adeb6,user,text,"{""text"": ""Yes, I did. We're trying to decide between the Team and Business tiers before we commit to an annual contract.""}",,2026-05-12T10:33:45Z
+378d5194-b67f-53d8-8df1-68294ab5ec5f,435abb67-7f0b-52bb-bae5-0505b77adeb6,assistant,text,"{""text"": ""Happy to help you compare. Roughly how many seats would need full dashboard access?""}",,2026-05-12T10:36:45Z
+74b780fd-3658-5e7f-83ee-bef9871e74cc,435abb67-7f0b-52bb-bae5-0505b77adeb6,user,text,"{""text"": ""About 25. We also have a support team of maybe 8 who only need the lighter read-only view.""}",,2026-05-12T10:40:30Z
+cd0b7340-6d74-52bb-991d-94fa2b300c70,435abb67-7f0b-52bb-bae5-0505b77adeb6,assistant,text,"{""text"": ""That would put you in the Business tier, since read-only seats count at a reduced rate there. Would you like me to put together a quote?""}",,2026-05-12T10:45:00Z
+ba279bf2-ced9-54b4-a70e-d946555584ef,435abb67-7f0b-52bb-bae5-0505b77adeb6,user,text,"{""text"": ""Yes please. Our budget for this is around $4,000 a year, so if it lands near that we'll be fine.""}",,2026-05-12T10:46:30Z
+ea078a66-4fc2-551b-8c6d-87df519a75a2,435abb67-7f0b-52bb-bae5-0505b77adeb6,assistant,text,"{""text"": ""I'll get that over to our sales team today. One more thing - do you have a target date for the rollout?""}",,2026-05-12T10:48:45Z
+98520355-c3be-50d0-aec6-eaa0d93665d7,435abb67-7f0b-52bb-bae5-0505b77adeb6,user,text,"{""text"": ""We're aiming to be fully migrated by the end of next quarter, so roughly three months.""}",,2026-05-12T10:51:45Z
+3583c26c-381e-502f-96d0-603ae272ebb0,435abb67-7f0b-52bb-bae5-0505b77adeb6,assistant,text,"{""text"": ""Noted. I'll include that timeline so they can prioritise accordingly.""}",,2026-05-12T10:55:30Z
+b27ac252-104f-595e-8d01-6813e0f28b91,435abb67-7f0b-52bb-bae5-0505b77adeb6,user,text,"{""text"": ""Perfect. If the quote comes in under budget and the connector issue gets resolved, I'd say we're very likely to go ahead.""}",,2026-05-12T11:00:00Z

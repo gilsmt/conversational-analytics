@@ -1,0 +1,41 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "Conversational Analytics FastAPI backend"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.17.2",
+    "asyncpg>=0.31.0",
+    "fastapi[standard]>=0.124.0",
+    "google-genai>=1.52.0",
+    "pydantic-settings>=2.12.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy[asyncio]>=2.0.44",
+    "taskipy>=1.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.8",
+]
+
+[tool.taskipy.tasks]
+api = "fastapi dev app/main.py --host 127.0.0.1 --port 8000"
+db_migrate = "alembic upgrade head"
+seed = "python -m app.seed"
+ruff = "ruff check ."
+format = "ruff format ."
+
+[tool.uv]
+package = false
+
+[tool.setuptools.packages.find]
+include = ["app*", "models*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.fastapi]
+entrypoint = "app.main:app"

@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+
+# msw is a transitive dependency of shadcn; it needs its build script allowed.
+allowBuilds:
+  msw: true
+  sharp: true

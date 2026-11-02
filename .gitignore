@@ -1,0 +1,55 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Build output
+/.next/
+/out/
+/build
+.swc
+next-env.d.ts
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+
+# Test & coverage artefacts
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Environments
+.env
+.env.*
+!.env.template
+
+# Editors & OS
+.idea
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/extensions.json
+.DS_Store
+*.pem
+tmp/
+
+# Local caches
+.cache
+.uv-cache/
+
+# Local data archives (the CSVs under Conversations/ are tracked directly)
+Conversations.zip
+
+# Vendored agent skills (see AGENTS.md)
+.agents/
